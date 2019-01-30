@@ -70,8 +70,9 @@ extension DataSource: UICollectionViewDataSource {
     -> UICollectionViewCell
   {
     let cell = collectionView.dequeueReusableCell(
-      withReuseIdentifier: Cell.description(),
-      for: indexPath) as! Cell
+        withReuseIdentifier: NibCell.description(),
+        for: indexPath) as! NibCell
+
     let itemInfo = sectionInfos[indexPath.section].itemInfos[indexPath.item]
     cell.set(itemInfo)
     return cell

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1D68DE02202087A00558B20 /* NibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D68DDE2202087A00558B20 /* NibCell.swift */; };
+		F1D68DE12202087A00558B20 /* NibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D68DDF2202087A00558B20 /* NibCell.xib */; };
 		FD138CD421B201D0006BFABC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD138CD321B201D0006BFABC /* Data.swift */; };
 		FD138CD621B20875006BFABC /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD138CD521B20875006BFABC /* Cell.swift */; };
 		FD138CD821B226A7006BFABC /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD138CD721B226A7006BFABC /* Header.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F1D68DDE2202087A00558B20 /* NibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibCell.swift; sourceTree = "<group>"; };
+		F1D68DDF2202087A00558B20 /* NibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NibCell.xib; sourceTree = "<group>"; };
 		FD138CD321B201D0006BFABC /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		FD138CD521B20875006BFABC /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		FD138CD721B226A7006BFABC /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				FD138CD721B226A7006BFABC /* Header.swift */,
 				FD138CD521B20875006BFABC /* Cell.swift */,
 				FD138CDC21B22BBE006BFABC /* ItemCreationPanelView.swift */,
+				F1D68DDE2202087A00558B20 /* NibCell.swift */,
+				F1D68DDF2202087A00558B20 /* NibCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD23F60B21AF519900AA78D4 /* LaunchScreen.storyboard in Resources */,
+				F1D68DE12202087A00558B20 /* NibCell.xib in Resources */,
 				FD23F60821AF519900AA78D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +216,7 @@
 				FD23F60321AF519700AA78D4 /* ViewController.swift in Sources */,
 				FD138CD821B226A7006BFABC /* Header.swift in Sources */,
 				FD23F60121AF519700AA78D4 /* AppDelegate.swift in Sources */,
+				F1D68DE02202087A00558B20 /* NibCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

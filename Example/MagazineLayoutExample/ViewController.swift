@@ -55,7 +55,8 @@ final class ViewController: UIViewController {
   private lazy var collectionView: UICollectionView = {
     let layout = MagazineLayout()
     let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-    collectionView.register(Cell.self, forCellWithReuseIdentifier: Cell.description())
+    collectionView.register(UINib(nibName: "NibCell", bundle: nil),
+                            forCellWithReuseIdentifier: NibCell.description())
     collectionView.register(
       Header.self,
       forSupplementaryViewOfKind: MagazineLayout.SupplementaryViewKind.sectionHeader,
